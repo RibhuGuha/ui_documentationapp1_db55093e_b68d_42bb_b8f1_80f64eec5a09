@@ -1,0 +1,88 @@
+{
+
+"petservice": [
+    {
+        "key": "ServiceId",
+        "type": "keyid",
+        "UIComponentTitle": "PetService"
+    }
+        ,{
+        "key": "ServiceType",
+        "label": "ServiceType",
+        "type": "dropdown",
+        "valueId": "Value",
+        "nameId": "Name",
+        "contentId": "Name",
+        "source": "PetServiceType",
+        "enum": true,
+        "editable": true,
+        "validators": [
+             "isNumber"
+        ]
+                            }
+    ,{
+        "key": "Price",
+        "label": "Price",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "DogSize",
+        "label": "DogSize",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "ServiceAt",
+        "label": "ServiceAt",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "DurationInDays",
+        "label": "DurationInDays",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "DurationInHours",
+        "label": "DurationInHours",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isNumber"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "OnlineBookingAllowed",
+        "label": "OnlineBookingAllowed",
+        "type": "check",
+        "editable": true,
+        "validators": [
+             "isTruthy"
+        ]
+                            }
+    ,{
+        "key": "AdvPaymentReqd",
+        "label": "AdvPaymentReqd",
+        "type": "check",
+        "editable": true,
+        "validators": [
+             "isTruthy"
+        ]
+                            }
+]
+}

@@ -1,0 +1,70 @@
+{
+
+"pet": [
+    {
+        "key": "PetId",
+        "type": "keyid",
+        "UIComponentTitle": "Pet"
+    }
+        ,{
+        "key": "PetName",
+        "label": "PetName",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Breed",
+        "label": "Breed",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "AnimalType",
+        "label": "AnimalType",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Gender",
+        "label": "Gender",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Color",
+        "label": "Color",
+        "type": "text",
+        "editable": true,
+        "validators": [
+                    ]
+                            }
+    ,{
+        "key": "Weight",
+        "label": "Weight",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+    ,{
+        "key": "Height",
+        "label": "Height",
+        "type": "text",
+        "editable": true,
+        "validators": [
+             "isFloat"
+, "isPositive"
+        ]
+                            }
+]
+}
